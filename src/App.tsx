@@ -1,9 +1,7 @@
 import * as C from './App.styles';
-import { useState } from 'react';
-import { ApiService }from './services/ApiService';
+import { TableArea } from './components/Table/TableArea';
 
 const App = () => {
- const [universities, setUniversities] = useState(ApiService.getAll)
 
 return (
   <C.Container>
@@ -11,8 +9,7 @@ return (
     <C.HeaderText>List Universities Brazil </C.HeaderText>
     </C.Header>
     <C.Body>
-      {/* Area de informações */}
-      {/* Area de informações */}
+      <TableArea />
       </C.Body>
   </C.Container>
 );

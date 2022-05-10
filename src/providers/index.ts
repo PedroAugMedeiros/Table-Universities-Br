@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const Api = axios.create({
-  baseURL: "endpoint",
+  baseURL: "https://api.meuguru.net",
 });

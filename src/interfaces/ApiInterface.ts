@@ -1,7 +1,11 @@
 export interface ApiInterface {
   id: number;
   name: string;
-  status: string;
+  initial: string;
+  region: string;
+  regionType: string;
+  state: string;
   type: string;
-  image: string;
+  createdAt: string;
+  updatedAt: string;
 }
