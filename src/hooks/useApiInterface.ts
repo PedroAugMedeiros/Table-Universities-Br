@@ -11,8 +11,7 @@ export const useApiInterface = () => {
 
     if (status !== 200 || data === universitiesList) throw new Error();
     setUniversitiesList(data)
-  }, []);
-  console.log(universitiesList)
+  }, [universitiesList]);
   return {
     universitiesList,
     getAll,

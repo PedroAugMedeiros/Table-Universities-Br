@@ -9,3 +9,7 @@ export interface ApiInterface {
   createdAt: string;
   updatedAt: string;
 }
+
+export interface Regions {
+regions: string[];
+}

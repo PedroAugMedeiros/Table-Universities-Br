@@ -1,5 +1,6 @@
 import * as C from './App.styles';
-import { TableArea } from './components/Table/TableArea';
+import { TableArea } from './components/TableArea';
+import { InputArea } from './components/InputArea';
 
 const App = () => {
 
@@ -9,6 +10,7 @@ return (
     <C.HeaderText>List Universities Brazil </C.HeaderText>
     </C.Header>
     <C.Body>
+      <InputArea />
       <TableArea />
       </C.Body>
   </C.Container>
