@@ -12,7 +12,6 @@ export const Header = styled.div`
     background-color: #2A004F;
     height: 150px;
     text-align: center;
-    
 `;  
 
 export const HeaderText = styled.h1`
@@ -24,6 +23,6 @@ export const HeaderText = styled.h1`
 
 export const Body = styled.div`
   margin-left: 10%;
+  max-width: 980px;
   text-align: center;
 `;
-
