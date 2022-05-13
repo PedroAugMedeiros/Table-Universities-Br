@@ -1,4 +1,5 @@
 export interface ApiInterface {
+  includes: any;
   id: number;
   name: string;
   initial: string;
@@ -8,8 +9,5 @@ export interface ApiInterface {
   type: string;
   createdAt: string;
   updatedAt: string;
-}
-
-export interface Regions {
-regions: string[];
-}
+  indexOf: any;
+};

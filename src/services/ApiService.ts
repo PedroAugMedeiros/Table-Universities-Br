@@ -1,4 +1,4 @@
-import { Api } from '../providers';
+import { Api } from './Api';
 import { ApiInterface } from '../interfaces';
 
 const getAll = () => Api.get<ApiInterface[]>('/universities');

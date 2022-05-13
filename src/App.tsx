@@ -1,20 +1,22 @@
 import * as C from './App.styles';
+import  Header  from './components/Header';
+import { UniversitiesContextProvider } from './context/UniversitiesContext';
+import { SearchArea } from './components/SearchArea';
 import { TableArea } from './components/TableArea';
-import { InputArea } from './components/InputArea';
 
 const App = () => {
 
 return (
   <C.Container>
-    <C.Header>
-    <C.HeaderText>List Universities Brazil </C.HeaderText>
-    </C.Header>
+    <Header />
     <C.Body>
-      <InputArea />
+      <UniversitiesContextProvider>
+      <SearchArea />
       <TableArea />
+      </UniversitiesContextProvider>
       </C.Body>
   </C.Container>
 );
 }
 
-export default App
+export default App;
