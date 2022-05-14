@@ -9,7 +9,8 @@ Consiste em Desenvolver um Tabela com uma lista de univestidades de todo o País
 
 ## Download :
 
-### `git clone` git@github.com:PedroAugMedeiros/FormsBemPaggo.git
+### `git clone` git@github.com:PedroAugMedeiros/Table-Universities-Br.git
+### ou  `git clone` https://github.com/PedroAugMedeiros/Table-Universities-Br.git
 
 ## Link Deploy:
 https://tabela-universidades-br.herokuapp.com

@@ -22,7 +22,7 @@ export const SearchArea = () => {
   <C.SearchArea data-testid="searchArea">
     <C.SearchAreaTitle> Filtros de Pesquisa </C.SearchAreaTitle>
       <C.Container>
-       <C.Button onClick={ () => handleClick(filters.FiltredById) }> Buscar Por Id </C.Button>
+       <C.Button data-testid = 'buttonTest' onClick={ () => handleClick(filters.FiltredById) }> Buscar Por Id </C.Button>
        <C.Button onClick={ () => handleClick(filters.FiltredByName) }>
           Buscar Por Nome  </C.Button>
        <C.Button onClick={ () => handleClick(filters.FiltredByInitial) }>

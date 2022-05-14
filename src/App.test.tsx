@@ -38,9 +38,7 @@ describe('Testa SearchArea', () => {
   it('testa se somente ao clicar em um botão aparece o input', () => {
     render(<App />);
 
-   const button = screen.getByRole('button',{
-     name: 'Listar Por Nome'
-   }) 
+   const button = screen.getByTestId('buttonTest') 
    
    userEvent.click(button)
    const input = screen.getByTestId('input')
