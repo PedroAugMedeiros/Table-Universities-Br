@@ -12,7 +12,7 @@ Consiste em Desenvolver um Tabela com uma lista de univestidades de todo o País
 ### `git clone` git@github.com:PedroAugMedeiros/Table-Universities-Br.git
 ### ou  `git clone` https://github.com/PedroAugMedeiros/Table-Universities-Br.git
 
-## Link Deploy:
+## Link Deploy
 https://tabela-universidades-br.herokuapp.com
 
 ## Para rodar localmente :
