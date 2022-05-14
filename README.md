@@ -5,7 +5,7 @@ Projeto de teste pratico - Desenvolvedor Frontend Junior.
 Consiste em Desenvolver um Tabela com uma lista de univestidades de todo o País.
 
 ## Tecnologias, Ferramentas, Frameworks e Bibliotecas:
- Typescript, React, Git, StyledComponents, JavaScript, Git, Postman, GitHub , heroku,  ,json2ts , Tslint, Axios  e React Testing Library
+ Typescript, React, Git, StyledComponents, JavaScript, Git, Postman, GitHub , heroku, json2ts, Axios  e React Testing Library
 
 ## Download :
 

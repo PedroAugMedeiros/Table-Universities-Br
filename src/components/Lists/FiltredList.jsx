@@ -373,19 +373,12 @@ export const FiltredList = () => {
     );
   }
 
-  if(valueInput === '') {
-    return (
-      <tbody> 
-      {FullList()}
-      </tbody>
-    );
-  }
-
 return (
   <tbody> 
   {FirstList()}
   </tbody>
 );
 }
+
 
 export default FiltredList;
