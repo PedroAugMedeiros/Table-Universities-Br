@@ -1,18 +1,18 @@
 # Descrição
 
-Projeto de teste pratico - Desenvolvedor Frontend junior.
+Projeto de teste pratico - Desenvolvedor Frontend Junior.
 
 Consiste em Desenvolver um Tabela com uma lista de univestidades de todo o País.
 
 ## Tecnologias, Ferramentas, Frameworks e Bibliotecas:
- Typescript, React, Git, JavaScript, Git, GitHub, StyledComponents, Tslint, Axios  e React Testing Library
+ Typescript, React, Git, StyledComponents, JavaScript, Git, Postman, GitHub , heroku,  ,json2ts , Tslint, Axios  e React Testing Library
 
 ## Download :
 
 ### `git clone` git@github.com:PedroAugMedeiros/FormsBemPaggo.git
 
 ## Link Deploy:
-https://afternoon-hamlet-33143.herokuapp.com/
+https://tabela-universidades-br.herokuapp.com
 
 ## Para rodar localmente :
 
